@@ -1,0 +1,139 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/simon/project/generator-weapp',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/simon/.npm/generator-weapp/0.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/simon/.npm correctMkdir not in flight; initializing
+10 info lifecycle generator-weapp@0.0.0~prepublish: generator-weapp@0.0.0
+11 silly lifecycle generator-weapp@0.0.0~prepublish: no script for prepublish, continuing
+12 info lifecycle generator-weapp@0.0.0~prepare: generator-weapp@0.0.0
+13 silly lifecycle generator-weapp@0.0.0~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/simon/.npm/generator-weapp/0.0.0/package.tgz',
+14 verbose tar pack   '/Users/simon/project/generator-weapp' ]
+15 verbose tarball /Users/simon/.npm/generator-weapp/0.0.0/package.tgz
+16 verbose folder /Users/simon/project/generator-weapp
+17 verbose addLocalTarball adding from inside cache /Users/simon/.npm/generator-weapp/0.0.0/package.tgz
+18 verbose correctMkdir /Users/simon/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd generator-weapp@0.0.0
+20 verbose afterAdd /Users/simon/.npm/generator-weapp/0.0.0/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/simon/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/simon/.npm/generator-weapp/0.0.0/package/package.json written
+23 silly publish { name: 'generator-weapp',
+23 silly publish   version: '0.0.0',
+23 silly publish   description: '微信小程序构建工具',
+23 silly publish   homepage: '',
+23 silly publish   author: { name: 'jasondu', email: 'duguangwei@youzan.com' },
+23 silly publish   files: [ 'generators' ],
+23 silly publish   main: 'generators/index.js',
+23 silly publish   keywords: [ 'yeoman-generator' ],
+23 silly publish   devDependencies:
+23 silly publish    { 'yeoman-test': '^1.7.0',
+23 silly publish      'yeoman-assert': '^3.1.0',
+23 silly publish      coveralls: '^3.0.0',
+23 silly publish      nsp: '^2.8.0',
+23 silly publish      eslint: '^4.19.1',
+23 silly publish      prettier: '^1.11.1',
+23 silly publish      husky: '^0.14.3',
+23 silly publish      'lint-staged': '^6.1.1',
+23 silly publish      'eslint-config-prettier': '^2.9.0',
+23 silly publish      'eslint-plugin-prettier': '^2.6.0',
+23 silly publish      'eslint-config-xo': '^0.20.1',
+23 silly publish      jest: '^22.0.6' },
+23 silly publish   engines: { npm: '>= 4.0.0' },
+23 silly publish   dependencies:
+23 silly publish    { 'yeoman-generator': '^2.0.1',
+23 silly publish      chalk: '^2.1.0',
+23 silly publish      yosay: '^2.0.1' },
+23 silly publish   jest: { testEnvironment: 'node' },
+23 silly publish   scripts:
+23 silly publish    { prepublishOnly: 'nsp check',
+23 silly publish      pretest: 'eslint .',
+23 silly publish      precommit: 'lint-staged',
+23 silly publish      test: 'jest' },
+23 silly publish   'lint-staged':
+23 silly publish    { '*.js': [ 'eslint --fix', 'git add' ],
+23 silly publish      '*.json': [ 'prettier --write', 'git add' ] },
+23 silly publish   eslintConfig:
+23 silly publish    { extends: [ 'xo', 'prettier' ],
+23 silly publish      env: { jest: true, node: true },
+23 silly publish      rules: { 'prettier/prettier': [Object] },
+23 silly publish      plugins: [ 'prettier' ] },
+23 silly publish   repository: { type: 'git', url: 'guangweidu@qq.com/generator-weapp' },
+23 silly publish   license: 'Apache-2.0',
+23 silly publish   readme: '# generator-weapp [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]\n> 微信小程序构建工具\n\n## Installation\n\nFirst, install [Yeoman](http://yeoman.io) and generator-weapp using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).\n\n```bash\nnpm install -g yo\nnpm install -g generator-weapp\n```\n\nThen generate your new project:\n\n```bash\nyo weapp\n```\n\n## Getting To Know Yeoman\n\n * Yeoman has a heart of gold.\n * Yeoman is a person with feelings and opinions, but is very easy to work with.\n * Yeoman can be too opinionated at times but is easily convinced not to be.\n * Feel free to [learn more about Yeoman](http://yeoman.io/).\n\n## License\n\nApache-2.0 © [jasondu]()\n\n\n[npm-image]: https://badge.fury.io/js/generator-weapp.svg\n[npm-url]: https://npmjs.org/package/generator-weapp\n[travis-image]: https://travis-ci.org/guangweidu@qq.com/generator-weapp.svg?branch=master\n[travis-url]: https://travis-ci.org/guangweidu@qq.com/generator-weapp\n[daviddm-image]: https://david-dm.org/guangweidu@qq.com/generator-weapp.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org/guangweidu@qq.com/generator-weapp\n[coveralls-image]: https://coveralls.io/repos/guangweidu@qq.com/generator-weapp/badge.svg\n[coveralls-url]: https://coveralls.io/r/guangweidu@qq.com/generator-weapp\n',
+23 silly publish   readmeFilename: 'README.md',
+23 silly publish   _id: 'generator-weapp@0.0.0',
+23 silly publish   _shasum: 'cd136f617ac23d16a0c88902513439b1651df040',
+23 silly publish   _from: '.' }
+24 info lifecycle generator-weapp@0.0.0~prepublishOnly: generator-weapp@0.0.0
+25 warn lifecycle generator-weapp@0.0.0~prepublishOnly: cannot run in wd %s %s (wd=%s) generator-weapp@0.0.0 nsp check .
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name generator-weapp
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'generator-weapp',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'generator-weapp',
+30 silly mapToRegistry   name: 'generator-weapp',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/generator-weapp
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/simon/.npm/generator-weapp/0.0.0/package.tgz
+34 verbose request uri https://registry.npmjs.org/generator-weapp
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 20:04:08
+37 verbose request using bearer token for auth
+38 verbose request id 006383c82e42face
+39 http request PUT https://registry.npmjs.org/generator-weapp
+40 http 403 https://registry.npmjs.org/generator-weapp
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '109',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Tue, 17 Apr 2018 12:04:10 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-hkg17924-HKG',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1523966650.987391,VS0,VE751',
+41 verbose headers   vary: 'Accept-Encoding, Accept' }
+42 verbose request invalidating /Users/simon/.npm/registry.npmjs.org/generator-weapp on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: You do not have permission to publish "generator-weapp". Are you logged in as the correct user? : generator-weapp
+44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+45 verbose statusCode 403
+46 verbose pkgid generator-weapp
+47 verbose cwd /Users/simon/project/generator-weapp
+48 error Darwin 16.7.0
+49 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+50 error node v7.4.0
+51 error npm  v4.0.5
+52 error code E403
+53 error You do not have permission to publish "generator-weapp". Are you logged in as the correct user? : generator-weapp
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]
